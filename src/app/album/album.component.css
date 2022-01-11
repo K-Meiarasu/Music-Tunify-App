@@ -1,0 +1,26 @@
+.main{
+    display: grid;
+    justify-content: center;
+    color: red;
+    grid-template-rows: 1fr;
+    font-weight: bold;
+    height: auto;
+}
+.con{
+    border: 1px solid red;
+    border-radius: 0.3vw;
+    background-color: yellow;
+    width: 30vw;
+    color: red;
+    padding: 0.5vw;
+    margin: 0.5vw;
+}
+.con:hover{
+    cursor: pointer;
+    color: yellow;
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: red;
+}

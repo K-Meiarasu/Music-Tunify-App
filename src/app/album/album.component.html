@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="main">
+            <div class="con" *ngFor="let song of track_id">
+                <h4>{{song.name}}</h4>
+                <audio controls>
+                    <source [src]="song.preview_url">
+                </audio>
+            </div>
+        </div>
+    </body>
+</html>
