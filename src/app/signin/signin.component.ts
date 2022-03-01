@@ -34,7 +34,7 @@ export class SigninComponent implements OnInit {
   check()
   {
     console.log(this.users);
-    for(let i=0;i<this.users.length;i++)
+    for(let i of this.users)
     {
       if(this.form.value.name==this.users[i].name && this.form.value.password==this.users[i].password)
       {
