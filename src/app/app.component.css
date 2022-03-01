@@ -21,7 +21,7 @@
     padding: 0.7vw;
     margin-left: 34vw;
     border-radius: 0.3vw;
-    border: 1p solid red;
+    border: 1px solid red;
     background-image:linear-gradient(to right,rgb(253, 227, 78),rgb(255,255,133));
     word-wrap: break-word;
     width: 30vw;
