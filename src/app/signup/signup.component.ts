@@ -62,7 +62,7 @@ export class SignupComponent implements OnInit {
     if(this.name=='' && this.email=='' && this.password=='' && this.cp=='')
     {
       var add=false;
-      for(let i=0;i<this.users.length;i++)
+      for(let i of this.users)
       {
         if(this.username==this.users[i].name)
         {
