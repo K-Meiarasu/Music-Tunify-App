@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
   constructor(private service:MusicserviceService) { }
 
   ngOnInit(): void {
+    //do nothing
   }
 
   public search(){
